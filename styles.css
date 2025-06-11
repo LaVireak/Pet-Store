@@ -31,10 +31,24 @@ nav a {
     margin: 20px;
 }
 
+/* Default pet-list for home page (2 pets centered) */
 .pet-list {
     display: flex;
     justify-content: center;
     gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Pet-list for pets page (4x2 grid) */
+.pet-list.all-pets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .pet {
