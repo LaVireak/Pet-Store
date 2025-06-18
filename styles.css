@@ -41,10 +41,10 @@ nav a {
     flex-wrap: wrap;
 }
 
-/* Pet-list for pets page (4x2 grid) */
+/* Pet-list for pets page (5x grid) */
 .pet-list.all-pets {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     justify-items: center;
     max-width: 1200px;
